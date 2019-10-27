@@ -31,3 +31,135 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+body{
+  background-color: #e5e5e5;
+}
+.hlavicka {
+  display: flex;
+  align-items: center;
+  padding: 0; 
+  margin-left: 40px;
+}
+.logo {
+  font-weight: bold;
+  color: #48418e;
+}
+
+.menu{
+  margin: 0; 
+  padding: 0; 
+  list-style: none;
+  display: flex;
+  margin-left: 35px;
+
+}
+.menu li{
+  margin: 0;
+  padding: 0;
+}
+
+.menu a{ 
+  text-decoration: none;
+  display: block;
+  padding: 12px 25px;
+  color: #48418e;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+  background-color: #48418e;
+  color: white;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  background-image: url(images/pozadi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative; 
+}
+
+.telefon{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.nadpis {
+  font-size: 500%;
+  font-weight: normal;
+  margin: 0;
+  padding: 40px;
+}
+
+.podnadpis {
+  font-size: 200%;
+  margin: 0;
+  margin-left: 40px;
+  line-height: 1.2;
+}
+
+.tlacitka {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 120%;
+}
+
+.tlacitka li{
+  display: inline-block;
+  margin: 50px 0;
+  padding: 12px 10px; 
+}
+
+.tlacitka a {
+   color: white;
+   text-decoration: none;
+   display: inline-block;
+   padding: 12px 25px; 
+   border: 1px solid white;
+   border-radius: 6px;
+}
+
+.vybrana  a{
+  margin-left: 30px;
+  }
+
+.tlacitka a:hover,
+.tlacitka a:focus,
+.tlacitka a:active {
+  background-color: #48418e;
+}
+
+.kulaty {
+  width: 70px;
+  height: 70px;
+}
+
+.sloupce {
+  display:flex;
+  text-align: center;
+}
+.sloupec {
+  margin: 4%;
+  font-size: 90%;
+}
+
+h2 {
+  color: rgb(62, 62, 116);
+}
+
+.paticka {
+  background-color: #48418e;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 80%;
+}
+
+.paticka p {
+   margin: 0;
+}
